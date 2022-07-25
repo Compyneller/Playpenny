@@ -3,7 +3,7 @@ import MidCard from "../Carousel/MidCard";
 
 const HowToPlay = () => {
   return (
-    <div className="w-100" style={{ background: "#E0F2F1" }}>
+    <div className="w-100" style={{ background: "#FFEBEE" }}>
       <Container>
         <Row>
           <Col sm={12} lg={4}>

@@ -1,29 +1,66 @@
 import React from "react";
-import { Alert, Card } from "react-bootstrap";
+import { Alert, Card, Row } from "react-bootstrap";
 
 const MidCard = () => {
   return (
     <>
-      <h3 className="text-center">Benefits of DeccanRummy</h3>
-      <Card
-        style={{ height: "60vh", minHeight: "50vh", background: "#B2DFDB" }}
-      >
+      <h3 className="text-center">BENEFITS OF PLAYING RUMMY WITH PLAYPENNY</h3>
+      <Card style={{ background: "#B71C1C" }}>
         <Card.Body className="d-flex flex-column align-items-center justify-content-center">
-          <Alert className="mb-3 w-100" variant="success">
-            Register at Deccanrummy & Get bonus - ₹25
-          </Alert>
-          <Alert className="mb-3 w-100" variant="success">
-            1st Deposit Welcome bonus - up to ₹5000
-          </Alert>
-          <Alert className="mb-3 w-100" variant="success">
-            Free rummy tournaments every day for ₹56000
-          </Alert>
-          <Alert className="mb-3 w-100" variant="success">
-            Refer a Friend and Earn - up to ₹10000 Bonus
-          </Alert>
-          <Alert className="w-100" variant="success">
-            Download Deccan Rummy Mobile App for - FREE
-          </Alert>
+          <Row className="g-3">
+            <div className="col-6 col-lg-6">
+              <Card
+                style={{
+                  background: "#EF9A9A",
+                  border: "2px solid #FFCDD2",
+                  height: "100%",
+                }}
+              >
+                <Card.Body className="text-center d-flex align-items-center justify-content-center">
+                  <b>Register for FREE</b>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-6 col-lg-6">
+              <Card
+                style={{
+                  background: "#EF9A9A",
+                  border: "2px solid #FFCDD2",
+                  height: "100%",
+                }}
+              >
+                <Card.Body className="text-center d-flex align-items-center justify-content-center">
+                  <b>First time registration bonus</b>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-6 col-lg-6">
+              <Card
+                style={{
+                  background: "#EF9A9A",
+                  border: "2px solid #FFCDD2",
+                  height: "100%",
+                }}
+              >
+                <Card.Body className="text-center d-flex align-items-center justify-content-center">
+                  <b>Free rummy matches</b>
+                </Card.Body>
+              </Card>
+            </div>
+            <div className="col-6 col-lg-6">
+              <Card
+                style={{
+                  background: "#EF9A9A",
+                  border: "2px solid #FFCDD2",
+                  height: "100%",
+                }}
+              >
+                <Card.Body className="text-center d-flex align-items-center justify-content-center">
+                  <b>Refer & Earn bonus</b>
+                </Card.Body>
+              </Card>
+            </div>
+          </Row>
         </Card.Body>
       </Card>
     </>

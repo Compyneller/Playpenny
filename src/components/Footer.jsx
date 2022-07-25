@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div style={{ width: "100%", background: "#004D40" }}>
+    <div style={{ width: "100%", background: "#B71C1C" }}>
       <Container className="text-center text-light">
         <Row className="g-3">
           <div className="col-6 col-lg-3">
@@ -24,7 +24,7 @@ const Footer = () => {
             />
           </div>
           <div className="col-6 col-lg-3">
-            <h5>DECCAN RUMMY</h5>
+            <h5>PLAYPENNY</h5>
           </div>
           <div className="col-6 col-lg-3">
             <h5>FOLLOW US</h5>
